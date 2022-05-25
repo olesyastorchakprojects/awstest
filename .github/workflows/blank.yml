@@ -5,7 +5,7 @@ on:
   push
 env:
   BUCKET_NAME : "ostorchak-aws-test"
-  AWS_REGION : "us-east-2"
+  AWS_REGION : "us-east-1"
 # permission can be added at job level or workflow level    
 permissions:
       id-token: write
